@@ -9,7 +9,11 @@ Sur une page web, les liens permettent de naviguer entre les pages. le **tag** p
 <a href="https://example.com/">lien vers un super site</a>
 ```
 
+## Définir l'url
+
 L'attribut `href` permet de définir l'url vers lequel vous voulez que le lien renvoie
+
+## Ouvrir le lien dans un nouvel onglet
 
 Si vous souhaitez que le lien s'ouvre dans un nouvel onglet, vous pouvez ajouter l'attribut `target` avec la valeur `_blank`
 

@@ -19,17 +19,11 @@ export default defineConfig({
       sidebar: [
         {
           label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            {
-              label: "Commencer une page web",
-              link: "/guides/commencer-une-page-web/",
-            },
-          ],
+          autogenerate: { directory: "guides" },
         },
         {
-          label: "Réference",
-          autogenerate: { directory: "reference" },
+          label: "Les éléments HTML",
+          autogenerate: { directory: "elements-html" },
         },
       ],
     }),

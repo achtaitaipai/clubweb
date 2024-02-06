@@ -17,5 +17,16 @@ Voici à quoi le code ressemble :
 </ul>
 ```
 
-:::note
+## Les listes numérotées
+
 Si on souhaite avoir une liste numérotée, on peut utiliser l'élément `ol` à la place de `ul`
+
+```html
+<ol>
+  <li>premier élément</li>
+  <li>deuxième élément</li>
+  <li>troisième élément</li>
+  <li>quatrième élément</li>
+  <li>cinquième élément</li>
+</ol>
+```
